@@ -2,8 +2,8 @@
 
 Application is deployed links:
 
-Heroku:
-Github:
+Heroku: https://glacial-reef-52400.herokuapp.com/
+Github: https://adrianauch.github.io/Book-Search-Engine/
 
 ## Description:
 
