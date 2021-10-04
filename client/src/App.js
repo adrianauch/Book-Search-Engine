@@ -14,22 +14,22 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "graphyql",
+  uri: "graphql",
   cache: new InMemoryCache(),
 });
 
 function App() {
   return (
-    <Router>
-      <>
+    <ApolloProvider client={client}>
+      <Router>
         <Navbar />
         <Switch>
           <Route exact path="/" component={SearchBooks} />
           <Route exact path="/saved" component={SavedBooks} />
           <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
         </Switch>
-      </>
-    </Router>
+      </Router>
+    </ApolloProvider>
   );
 }
 
