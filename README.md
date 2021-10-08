@@ -2,7 +2,7 @@
 
 Application is deployed links:
 
-Heroku: https://glacial-reef-52400.herokuapp.com/
+Heroku: https://ancient-hamlet-32372.herokuapp.com/
 Github: https://adrianauch.github.io/Book-Search-Engine/
 
 ## Description:
